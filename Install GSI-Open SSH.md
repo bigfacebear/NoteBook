@@ -3,6 +3,7 @@
 ## Installation
 
 1. Download from http://downloads.globus.org/toolkit/gt6/stable/installers/repo/deb/globus-toolkit-repo_latest_all.deb
+   * Latest version can be found from http://toolkit.globus.org/ftppub/gt6/installers/repo/globus-toolkit-repo_latest_all.deb
 2. add source
 
 ```bash
@@ -20,3 +21,6 @@ sudo apt-get install myproxy
 sudo apt-get install gsi-openssh gsi-openssh-clients
 ```
 
+### reference
+
+http://www.hpc.cineca.it/content/gsi-openssh
