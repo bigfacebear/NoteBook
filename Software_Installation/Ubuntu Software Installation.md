@@ -160,9 +160,9 @@ pip install /tmp/tensorflow_pkg/tensorflow-x.x.x-py2-none-linux_x86_64.whl
 
 下载`FoxyProxy Standard`插件，做如下设置
 
-![](./img/UbuntuSoftware/proxySetting.png)
+![proxySetting](assets/Ubuntu Software Installation.assets/proxySetting.png)
 
-![](./img/UbuntuSoftware/patternSubscription.png)
+![patternSubscription](assets/Ubuntu Software Installation.assets/patternSubscription.png)
 
 ## Chrome 配置翻墙
 
