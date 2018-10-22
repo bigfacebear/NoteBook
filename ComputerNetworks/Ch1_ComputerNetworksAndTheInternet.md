@@ -42,9 +42,7 @@ Internet **Application Programming Interface (API)**.
 
 ### 3. What is a Protocol?
 
-A protocol defines the format and the order of messages exchanged between
-two or more communicating entities, as well as the actions taken on the trans-
-mission and/or receipt of a message or other event.
+A protocol defines the format and the order of messages exchanged between two or more communicating entities, as well as the actions taken on the transmission and/or receipt of a message or other event.
 
 ## 2. The Network Edge
 
@@ -88,3 +86,29 @@ In circuit-switched networks, the resources needed along a path (buffers, link t
 
 ![image-20181016230323275](assets/Ch1_ComputerNetworksAndTheInternet.assets/image-20181016230323275.png)
 
+### 3. A Network of Networks
+
+### 4 Delay, Loss, and Throughput in Packet-Switched Networks
+
+#### Overview of Delay in Packet-Switched Networks
+
+- Processing Delay
+- Queuing Delay
+- Transmission Delay = $L/R, L = packet\ length, R = transmission rate$ 
+- Propagation Delay = $d / s,d = distance, s = speed$
+
+$d_{nodal} = d_{proc} + d_{queue} + d_{trans} + d_{prop}$
+
+#### Queuing Delay and Packet Loss
+
+$a$ - the average rate at which packets arrive at the queue (packets/sec)
+
+$La/R$ - **traffic intensity**
+
+#### End-to-End Delay
+
+Traceroute
+
+#### Throughput in Computer Networks
+
+throughput depends on the transmission rates of the links over which the data flows
