@@ -88,7 +88,7 @@ In circuit-switched networks, the resources needed along a path (buffers, link t
 
 ### 3. A Network of Networks
 
-### 4 Delay, Loss, and Throughput in Packet-Switched Networks
+## 4 Delay, Loss, and Throughput in Packet-Switched Networks
 
 #### Overview of Delay in Packet-Switched Networks
 
@@ -112,3 +112,29 @@ Traceroute
 #### Throughput in Computer Networks
 
 throughput depends on the transmission rates of the links over which the data flows
+
+## 5. Protocol Layers and Their Service Models
+
+### 1. Layered Architecture
+
+- Application
+  - HTTP, SMTP, FTP, DNS
+  - **message**
+- (Presentation)
+- (Session)
+- Transport
+  - TCP, UDP
+  - **segment**
+- Network
+  - IP, routing protocls
+  - **datagram**
+- Link
+  - Ethernet, WiFi, DOCSIS, PPP
+  - **frame**
+- Physical
+  - move the individual bits from one node to the next
+
+### 2. Encapsulation
+
+- header field
+- payload field
